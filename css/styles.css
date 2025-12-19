@@ -10947,11 +10947,16 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("images/jahgotsole-bg.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-image: url("img/jahgotsole-bg.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 100vh;
+  @media (max-width: 768px) {
+  body {
+    background-position: top;
+  }
+}
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
