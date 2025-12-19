@@ -10947,12 +10947,12 @@ header.masthead .masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("img/jahgotsole-bg.png");
+  background-image: url("img/https://github.com/jaheimhedge2-web/jaheimhedge2-web.github.io/blob/main/black%20logo.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 min-height: 100vh;
-  @media  (max-width: 768px) {
+   {
   .masthead {
     background-position: top;
   }
